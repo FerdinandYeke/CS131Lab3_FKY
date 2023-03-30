@@ -17,8 +17,7 @@ public class ListApp{
 
 		Square square1 = new Square(9.3);
 		PointThreeD pointer1 = new PointThreeD(1.1,2.2,3.3);
-		String s;
-		s = "s";
+		String string1 = new String("");
 		
 		ArrayList<Square> squareList = new ArrayList<Square>();
 		ArrayList<PointThreeD> point3DList = new ArrayList<PointThreeD>();
@@ -26,7 +25,7 @@ public class ListApp{
 		
 		System.out.println("Square List item addition: "+squareList.addItem(square1));
 		System.out.println("Point3D List item addtion: "+point3DList.addItem(pointer1));
-		System.out.println("String list item addtion: "+stringList.addItem(s));
+		System.out.println("String list item addtion: "+stringList.addItem(string1));
 		squareList = square1;
 		point3DList = pointer1;
 		
